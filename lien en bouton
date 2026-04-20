@@ -1,1 +1,10 @@
 
+Option 1 – Mushroom chip (la plus simple)
+
+type: custom:mushroom-template-card
+primary: Tableau de bord Piscine
+icon: mdi:pool
+tap_action:
+  action: navigate
+  navigation_path: /lovelace/piscine
+layout: horizontal
