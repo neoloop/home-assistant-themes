@@ -1,0 +1,21 @@
+Exemple concret – lien vers ta vue Piscine
+
+CODE:
+
+type: custom:mushroom-chips-card
+alignment: center
+chips:
+  - type: template
+    icon: mdi:pool
+    content: Piscine
+    icon_color: blue
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace/piscine
+  - type: template
+    icon: mdi:home
+    content: Accueil
+    icon_color: green
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace/0
